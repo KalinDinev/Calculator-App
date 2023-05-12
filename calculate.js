@@ -1,7 +1,10 @@
 function calculate() {
    let p = document.getElementById('result').value;
-   let q = eval(p);
-   document.getElementById('result').value = q;
+   if(p != ''){
+    let q = eval(p);
+    document.getElementById('result').value = q;
+   }
+  
 }
 
 function display(value) {
